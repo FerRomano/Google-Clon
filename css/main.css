@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .seccion-derecha{
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .seccion-derecha a{
+    color: rgba(0,0,0,.87);
+    margin-right: 20px;
+}
+
+nav .seccion-derecha .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav .seccion-derecha img{
+    border-radius: 100%;
+    width: 35px;
+    margin-left: 20px;
+}
+
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+main .logo-principal{
+    width: 530px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+}
+main .logo-principal img{
+    height: 120px;
+}
+main .input-principal{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+main .contenedor-input{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+}
+main .input-principal input{
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 420px;
+}
+
+main .contenedor-input:hover{
+    border-color: #dfe1e500;
+    box-shadow: 0 1px 6px 0 #20212447; 
+
+}
+
+main .input-principal .icono-buscar {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-position: center;
+    width: 14px;
+    height: 14px;
+    padding-left: 12px;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+main .input-principal .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    width: 14px;
+    height: 14px;
+    padding-left: 6%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main .input-principal .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    width: 14px;
+    height: 14px;
+    padding-left: 6%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main .botones-principal{
+    width: 530px;
+    margin: 0 auto;
+}
+main .botones-principal div{
+    display: inline-block;
+}
+main .botones-principal button{
+    border: 0;
+    height: 35px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-right: 15px;
+    border: 1px solid #f8f9fa;
+}
+
+main .botones-principal button:hover{
+    box-shadow: 0 1px 1px 0 #20212447;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+footer{
+      bottom: 0;
+      width: 100%;
+      height: 90px;
+      position: absolute;
+      display: grid;
+      align-items: center;
+      background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer .espacio-grande{
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+footer .espacio-grande p{
+    margin-left: 30px;
+    font-size: 15px;
+    color: #70757a;
+    
+}
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0 8px ;
+    
+}
+footer .info a{
+    text-decoration: none;
+    color: #70757a;
+    margin-left: 25px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+footer .priv{
+    margin-right: 30px;
+}
